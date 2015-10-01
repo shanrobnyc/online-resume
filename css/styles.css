@@ -1,3 +1,9 @@
+em {
+	font-style: normal;
+	font-size: 14px;
+	font-family: helvetica;
+}
+
 body {
 
 	font-size: 18px;
@@ -10,10 +16,15 @@ body {
 
 a {
 	font-weight: bold;
+	font-size: 14px;
+
 }
 
 nav {
 	text-align: center;
+	font-family: helvetica;
+	font-weight: bold;
+	margin: 40px 0 0 0; 
 }
 
 h1 {
@@ -21,8 +32,30 @@ h1 {
 	text-transform: uppercase;
 	font-family: helvetica;
 	font-weight: bold;
+	font-size: 32px;
+
 }
 
 img {
-	float: right;
+	border: 1px solid;
+	margin: 40px 0 40px 0;
+	padding: 3px;
+}
+
+h3 {
+	font-size: 26px;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: square;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
 }
